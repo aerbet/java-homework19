@@ -26,7 +26,7 @@ public class Main {
         king.printCoordinates();
 
         // task 4
-        Bishop bishop = new Bishop(6, 6, "B", "black");
+        Bishop bishop = new Bishop(6, 6, "black");
 
         System.out.println(bishop.toString());
         bishop.printCoordinates();
