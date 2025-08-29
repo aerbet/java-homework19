@@ -3,6 +3,7 @@ import Task2.Bicycle;
 import Task2.Car;
 import Task3.King;
 import Task4.Bishop;
+import Task5.CashPayment;
 
 public class Main {
     
@@ -32,5 +33,9 @@ public class Main {
         bishop.printCoordinates();
         bishop.movePiece(5, 4);
         bishop.printCoordinates();
+
+        // task 5
+        CashPayment cash = new CashPayment(100);
+        System.out.println(cash.pay(100));
     }
 }
